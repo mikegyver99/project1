@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+		"weather": {
+			"command": "uv",
+			"args": [
+				"run",
+				"--with",
+				"mcp[cli]",
+				"mcp",
+				"run",
+				"/Users/Michael.Garcia/OneDrive - Corpay/Documents/Projects/python/MCP/open-meteo-weather/main.py"
+				],
+				"env": {
+					"UV_LINK_MODE": "copy"
+				}
+		},
+        "filesystem": {
+            "command": "C:/Program Files/nodejs/npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-filesystem",
+                "/Users/Michael.Garcia/temp"
+            ]
+        }
+    }
+}
